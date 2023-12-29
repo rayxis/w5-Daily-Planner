@@ -14,7 +14,9 @@ adjusted accordingly. The time is then added to the block, and the loop continue
 The schedule data is then pulled from localStorage, and filled in each corresponding time slot.
 
 ## Installation
-Installation is simple.
+Installation is simple. Copy the files into the root directory of your webserver (example: /var/www/html), and visit 
+in your browser. As long as your server has been properly configured, no additional configuration is necessary. This 
+page does not require any special permissions.
 
 ## Usage
 
@@ -28,7 +30,11 @@ each block. This is by design so that you can focus on one thing at a time.
 As the hours go by, the corresponding fields will change colors to inform you about which events have passed (gray), 
 are present (red-ish), and which events have yet to be (green).
 
+The live version of the quiz can be found here: A live version of this can be viewed
+here: https://rayxis.github.io/w5-Daily-Planner/
+
 ## Screenshots
+![Starting screen](./screenshots/Screenshot%202023-12-29%20at%202.26.28%E2%80%AFPM.png)
 
 ## User Story
 
