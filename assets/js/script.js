@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 	// Upon clicking, this adds the text contents to the array, then saves the array in localStorage.
 	$('.saveBtn').click((event) => {
-		const scheduleKey         = $('.time-block').index($(event.target).prev());
+		const scheduleKey         = $('.time-block').index($(event.target).parent());
 		scheduleData[scheduleKey] = $(event.target).prev().val();
 		localStorage.setItem('scheduleData', JSON.stringify(scheduleData));
 	});
